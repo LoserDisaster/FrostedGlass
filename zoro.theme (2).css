@@ -1,0 +1,53 @@
+/**
+ * @name Zoro3
+ * @author Gibbu#1211
+ * @version 2.0.0
+ * @description Display your picture of choice with adjustable blur and brightness.
+ * @source https://github.com/DiscordStyles/FrostedGlass
+ * @invite ZHthyCw
+ * @donate https://paypal.me/IanRGibson
+ * @website https://gibbu.dev
+ * @authorId 174868361040232448
+ * @BDEditor Frosted Glass
+*/
+
+@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+
+:root {
+  --background-image: url('https://31.media.tumblr.com/0bec85c7a3f987ed4427d3ae43e29240/tumblr_mizvy6Z8nP1s4mbexo1_500.gif');
+  --background-image-blur: 0px;
+  --background-image-size: cover;
+  --background-image-position: center;
+  --popout-image: var(--background-image);
+  --popout-image-blur: 18px;
+  --popout-image-size: cover;
+  --popout-image-position: center;
+  --overlay-image: var(--background-image);
+  --overlay-image-blur: 0px;
+  --overlay-image-size: cover;
+  --overlay-image-position: center;
+  --home-button-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ca6fa429-c0ed-4aa0-b706-46162b4ebf5b/dgaw9mw-add5173b-489f-4ec3-a033-ba47674e1c34.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2NhNmZhNDI5LWMwZWQtNGFhMC1iNzA2LTQ2MTYyYjRlYmY1YlwvZGdhdzltdy1hZGQ1MTczYi00ODlmLTRlYzMtYTAzMy1iYTQ3Njc0ZTFjMzQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.s4AP516LWTk4pNw1w7W7Oy_x5KLNejb69-2DDAbtawE');
+  --home-button-size: contain;
+  --home-button-position: center;
+  --serverlist-brightness: 0.88;
+  --left-brightness: 0.74;
+  --middle-brightness: 0.6;
+  --right-brightness: 0.74;
+  --overlay-brightness: 0.6;
+  --gradient-primary: 102,26,252;
+  --gradient-secondary: 0,255,66;
+  --link-colour: #00F405;
+  --scrollbar-colour: rgb(11,220,20,1);
+  --gradient-direction: 360deg;
+  --tint-colour: 255,51,159;
+  --tint-brightness: 0;
+  --font: gg sans;
+  --window-padding: 18px;
+  --window-roundness: 13px;
+  --update-notice-1: none;
+}
+
+/* Any custom CSS below here */
+
+
